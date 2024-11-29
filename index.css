@@ -241,7 +241,8 @@ a:visited {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   font-size: 14px;
   transition: all 0.25s;
-  opacity: 0.2;
+  opacity: 1;
+  border: 2px solid rgba(255, 255, 255, 0.552);
 }
 
 .container2 {
@@ -258,7 +259,8 @@ a:visited {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   font-size: 14px;
   transition: all 0.25s;
-  opacity: 0.2;
+  opacity: 1;
+  border: 2px solid rgba(255, 255, 255, 0.552);
 }
 
 .container3 {
@@ -275,10 +277,11 @@ a:visited {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   font-size: 14px;
   transition: all 0.25s;
-  opacity: 0.3;
+  opacity: 1;
+  border: 2px solid rgba(255, 255, 255, 0.552);
 }
 
-.container5 {
+.container4 {
   height: 200px;
   width: 1000px;
   margin-top: 20px;
@@ -292,7 +295,8 @@ a:visited {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   font-size: 14px;
   transition: all 0.25s;
-  opacity: 0.3;
+  opacity: 1;
+  border: 2px solid rgba(255, 255, 255, 0.552);
 }
 
 .container5 {
@@ -309,7 +313,8 @@ a:visited {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   font-size: 14px;
   transition: all 0.25s;
-  opacity: 0.3;
+  opacity: 1;
+  border: 2px solid rgba(255, 255, 255, 0.552);
 }
 
 .container6 {
@@ -326,7 +331,8 @@ a:visited {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   font-size: 14px;
   transition: all 0.25s;
-  opacity: 0.3;
+  opacity: 1;
+  border: 2px solid rgba(255, 255, 255, 0.552);
 }
 
 .container7 {
@@ -343,7 +349,8 @@ a:visited {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   font-size: 14px;
   transition: all 0.25s;
-  opacity: 0.3;
+  opacity: 1;
+  border: 2px solid rgba(255, 255, 255, 0.552);
 }
 
 .container8 {
@@ -360,9 +367,21 @@ a:visited {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   font-size: 14px;
   transition: all 0.25s;
-  opacity: 0.3;
+  opacity: 1;
+  border: 2px solid rgba(255, 255, 255, 0.216);
+}
+
+.cover {
+  background-color: #000000e4;
+  height: 221px;
+  width: 1020px;
+  margin-top: -10px;
+  margin-left: -10px;
 }
 .item {
   background-color: transparent;
   font-size: 18px;
+  color: rgba(168, 168, 168, 0.554);
+  padding-top: 20px;
+  padding-left: 10px;
 }
