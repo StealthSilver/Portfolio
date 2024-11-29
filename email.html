@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./assets/RS.png" />
+    <title>Silver</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="navbar">
+        <a href="index.html"
+          ><div class="logo">
+            <div><img src="./assets/RS.png" alt="logo" /></div></div
+        ></a>
+
+        <div class="nav-options">
+          <a href="about.html"><div class="nav-text">ABOUT</div></a>
+          <a href="projects.html"><div class="nav-text">PROJECTS</div></a>
+          <a href="building.html"><div class="nav-text">LEARNING</div></a>
+          <a href="uses.html"><div class="nav-text">USES</div></a>
+          <a href="writings.html"><div class="nav-text">WRITINGS</div></a>
+        </div>
+        <div class="hamburger"><i class="fa-solid fa-bars"></i></div>
+      </div>
+    </header>
+
+    <main>
+      <div class="main-content">
+        <h2 class="use4">Emails</h2>
+
+        <h3 class="email">Send me an Email</h3>
+        <form action="send_email.php" method="POST">
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            placeholder="Keannu Reaves"
+            id="name"
+            name="name"
+            required
+          />
+
+          <label for="email">Your Email:</label>
+          <input
+            type="email"
+            placeholder="keannu@reaves.com"
+            id="email"
+            name="email"
+            required
+          />
+
+          <label for="message">Message:</label>
+          <textarea
+            id="message"
+            placeholder="How can I help you?"
+            name="message"
+            rows="5"
+            required
+          ></textarea>
+
+          <button type="submit">Send Email</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
