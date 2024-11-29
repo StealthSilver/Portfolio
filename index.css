@@ -227,20 +227,141 @@ a:visited {
   font-size: 40px;
 }
 
-.container {
+.container1 {
   height: 200px;
   width: 1000px;
   margin-top: 20px;
   background-color: #7c7c7c3b;
   color: #bcbbbb;
-
+  background-image: url("./assets/Workflow_properties_3.webp");
+  background-size: 100% 200%;
+  background-repeat: no-repeat;
   padding: 10px;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   font-size: 14px;
   transition: all 0.25s;
+  opacity: 0.2;
 }
 
+.container2 {
+  height: 200px;
+  width: 1000px;
+  margin-top: 20px;
+  background-color: #7c7c7c3b;
+  color: #bcbbbb;
+  background-image: url("./assets/vr.jpg");
+  background-size: 100% 200%;
+  background-repeat: no-repeat;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  transition: all 0.25s;
+  opacity: 0.2;
+}
+
+.container3 {
+  height: 200px;
+  width: 1000px;
+  margin-top: 20px;
+  background-color: #7c7c7c3b;
+  color: #bcbbbb;
+  background-image: url("./assets/drone.jpg");
+  background-size: 100% 200%;
+  background-repeat: no-repeat;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  transition: all 0.25s;
+  opacity: 0.3;
+}
+
+.container5 {
+  height: 200px;
+  width: 1000px;
+  margin-top: 20px;
+  background-color: #7c7c7c3b;
+  color: #bcbbbb;
+  background-image: url("./assets/forecast.jpg");
+  background-size: 100% 200%;
+  background-repeat: no-repeat;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  transition: all 0.25s;
+  opacity: 0.3;
+}
+
+.container5 {
+  height: 200px;
+  width: 1000px;
+  margin-top: 20px;
+  background-color: #7c7c7c3b;
+  color: #bcbbbb;
+  background-image: url("./assets/solar.jpg");
+  background-size: 100% 200%;
+  background-repeat: no-repeat;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  transition: all 0.25s;
+  opacity: 0.3;
+}
+
+.container6 {
+  height: 200px;
+  width: 1000px;
+  margin-top: 20px;
+  background-color: #7c7c7c3b;
+  color: #bcbbbb;
+  background-image: url("./assets/cp.jpeg");
+  background-size: 100% 200%;
+  background-repeat: no-repeat;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  transition: all 0.25s;
+  opacity: 0.3;
+}
+
+.container7 {
+  height: 200px;
+  width: 1000px;
+  margin-top: 20px;
+  background-color: #7c7c7c3b;
+  color: #bcbbbb;
+  background-image: url("./assets/electronic-payment.png");
+  background-size: 100% 200%;
+  background-repeat: no-repeat;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  transition: all 0.25s;
+  opacity: 0.3;
+}
+
+.container8 {
+  height: 200px;
+  width: 1000px;
+  margin-top: 20px;
+  background-color: #7c7c7c3b;
+  color: #bcbbbb;
+  background-image: url("./assets/ed.png");
+  background-size: 100% 200%;
+  background-repeat: no-repeat;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  transition: all 0.25s;
+  opacity: 0.3;
+}
 .item {
   background-color: transparent;
   font-size: 18px;
