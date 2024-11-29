@@ -48,7 +48,34 @@
               <a href="uses.html"><div class="nav-text">USES</div></a>
               <a href="writings.html"><div class="nav-text">WRITINGS</div></a>
             </div>
-            <div class="hamburger"><i class="fa-solid fa-bars"></i></div>
+            <div onclick="openPopup()" class="hamburger">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <div class="popup" id="popup">
+              <div class="popup-content">
+                <div class="close-btn" onclick="closePopup()">×</div>
+                <div class="popup-item">
+                  <a href="index.html"><div class="popup-text">HOME</div></a>
+                </div>
+                <div class="popup-item">
+                  <a href="about.html"><div class="popup-text">ABOUT</div></a>
+                </div>
+                <div class="popup-item">
+                  <a href="projects.html"
+                    ><div class="popup-text">PROJECTS</div></a
+                  >
+                </div>
+                <div class="popup-item">
+                  <a href="uses.html"><div class="popup-text">USES</div></a>
+                </div>
+                <div class="popup-item">
+                  <a href="writings.html"
+                    ><div class="popup-text">WRITINGS</div></a
+                  >
+                </div>
+              </div>
+            </div>
           </div>
         </header>
 
@@ -97,6 +124,21 @@
         </div>
       </div>
     </main>
-    <script src="script.js"></script>
+    <script>
+      function openPopup() {
+        const popup = document.getElementById("popup");
+        popup.style.display = "flex"; // Show the popup
+        popup.style.animation = "fadeIn 0.5s ease-out"; // Apply fade-in animation
+      }
+
+      // Close the popup
+      function closePopup() {
+        const popup = document.getElementById("popup");
+        popup.style.animation = "fadeOut 0.5s ease-out"; // Apply fade-out animation
+        setTimeout(() => {
+          popup.style.display = "none"; // Hide the popup after animation completes
+        }, 500); // The delay must match the duration of the fade-out animation
+      }
+    </script>
   </body>
 </html>
